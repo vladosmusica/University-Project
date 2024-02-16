@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solar System</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<main>
+    <div class="mobile-menu-button" onclick="toggleMobileMenu()">☰</div>
+    <div class="menu-container">
+        <a href="index.html">
+            <img src="logo_1.png" width="150" height="80">
+        </a>
+        <div class="desktop-menu">
+            <a href="index.html" class="font-text1">Головна</a>
+            <a href="open.html" class="font-text1">Відкриття</a>
+            <a href="dos.html" class="font-text2">Дослідження</a>
+            <a href="info.html" class="font-text1">Інформація</a>
+        </div>
+        <div>
+            <button class="c-button">Логін</button>
+        </div>
+    </div>
+<hr>
+<div class="container">
+<div class="info-card">
+    <img src="card_1.jpg" alt="Зображення">
+    <h2 class="font-text3">"Тяньвень - 1"</h2>
+    <p class="font-text3">15 травня 2021 року висадився на Марсі</p>
+    <a href="ссылка.html" class="font-text3">Детальніше</a>
+</div>
+<div class="info-card">
+    <img src="card_2.jpg" alt="Зображення">
+    <h2 class="font-text3">Хаябуса - 2</h2>
+    <p class="font-text3">21 вересня 2018 року здійснив посадку на астероїд Рюгу</p>
+    <a href="ссылка.html" class="font-text3">Детальніше</a>
+</div>
+<div class="info-card">
+    <img src="card_3.jpg" alt="Зображення">
+    <h2 class="font-text3">Мангальян</h2>
+    <p class="font-text3">24 вересня 2014 року вийшов на еліптичну орбіту Марса</p>
+    <a href="ссылка.html" class="font-text3">Детальніше</a>
+</div>
+<div class="info-card">
+    <img src="card_4.png" alt="Зображення">
+    <h2 class="font-text3">Нью-Горайзонс</h2>
+    <p class="font-text3">30 квітня 2021 року здійсним обліт другого ОПК</p>
+    <a href="ссылка.html" class="font-text3">Детальніше</a>
+</div>
+<div class="info-card">
+    <img src="card_5.jpg" alt="Зображення">
+    <h2 class="font-text3">К'юріосіті</h2>
+    <p class="font-text3">6 серпня 2012 року здійснив успішну посадку в кратері Ґейла</p>
+    <a href="ссылка.html" class="font-text3">Детальніше</a>
+</div>
+</div>
+<script>
+    function toggleMobileMenu() {
+        var menu = document.querySelector('.desktop-menu');
+        menu.classList.toggle('show-mobile-menu');
+    }
+</script>
+</main>
+
+</html>

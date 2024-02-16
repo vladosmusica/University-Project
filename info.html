@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solar System</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<main>
+    <div class="mobile-menu-button" onclick="toggleMobileMenu()">☰</div>
+    <div class="menu-container">
+        <a href="index.html">
+            <img src="logo_1.png" width="150" height="80">
+        </a>
+        <div class="desktop-menu">
+            <a href="index.html" class="font-text1">Головна</a>
+            <a href="open.html" class="font-text1">Відкриття</a>
+            <a href="dos.html" class="font-text1">Дослідження</a>
+            <a href="info.html" class="font-text2">Інформація</a>
+        </div>
+        <div>
+            <button class="c-button">Логін</button>
+        </div>
+    </div>
+<hr>
+
+<script>
+    function toggleMobileMenu() {
+        var menu = document.querySelector('.desktop-menu');
+        menu.classList.toggle('show-mobile-menu');
+    }
+</script>
+</main>
+
+</html>
